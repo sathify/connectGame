@@ -1,4 +1,5 @@
 Tic Tac Toe and Connect Four using common code.
+
 The Object oriented JS code contains simple AI and game simulation.
 -There are two players. Once denoted as "X". The other denoted as "O". Empty spaces are denoted at "-".
 -The game starts with all spaces being empty.
