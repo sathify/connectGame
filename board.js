@@ -50,7 +50,7 @@ function Game(val) {
 Game.prototype.printBoard = function(over) {
 	console.log('BOARD');
 	var board = this.getboard(),
-			dim = this.getdimension();;
+		dim = this.getdimension();
 	for (var i = 0; i < dim; i++) {
 	 	var line='';
 		for (var j = 0; j < dim; j++) {
