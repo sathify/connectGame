@@ -1,3 +1,14 @@
+Tic Tac Toe and Connect Four using common code.
+
+The code contains simple AI and game simulation.
+
+-There are two players. Once denoted as "X". The other denoted as "O". Empty spaces are denoted at "-".
+-The game starts with all spaces being empty.
+-Each player takes turns claiming one space per turn.
+-If the board fills up, then the game is over and there is no winner.
+-If a connection is made there is a winner. 3 for tic tac toe and 4 for connect four.
+
+
 TIC TAC TOE 
 BOARD 
 |-|X|-| 
