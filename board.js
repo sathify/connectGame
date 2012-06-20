@@ -1,7 +1,7 @@
 //Game class-can be used for Tic Tac Toe/Connect four, etc.
 
 function Game(val) {
-  //private game state variables	
+  	//private game state variables	
 	//no one can change it.	
 	var board = new Array(val), 
 		  dim = val
@@ -65,15 +65,15 @@ Game.prototype.printBoard = function(over) {
 };
 
 Game.prototype.checkWinner = function(){
-		//checkWinner- win depends on the game
-		var item ='', dim = this.getdimension(),
-			win = (dim === 6) ? dim-3 : dim-1, 
-			board = this.getboard(),
-			count=0;
+	//checkWinner- win depends on the game
+	var item ='', dim = this.getdimension(),
+		win = (dim === 6) ? dim-3 : dim-1, 
+		board = this.getboard(),
+		count=0;
 			
-		for (var i = 0; i < dim; i++) {
-			count =0;
-			item ='';
+	for (var i = 0; i < dim; i++) {
+	    count =0;
+	    item ='';
             for (var no = 0; no < dim; no++) {
                 if (board[i][no] === '-') {
                 	count = 0;
