@@ -4,7 +4,7 @@ function Game(val) {
   	//private game state variables	
 	//no one can change it.	
 	var board = new Array(val), 
-		  dim = val
+		  dim = val,
 		  current = 1,
 		  playerOne = 'X',
 		  playerTwo = 'O';
